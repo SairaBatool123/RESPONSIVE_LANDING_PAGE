@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+header ul{
+    list-style: none;
+    display: flex; 
+    font-size: large;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header li{
+    padding: 20px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header button{
+    margin-bottom: 30px;
+    background-color: rgb(233, 88, 88);
+    width: 80px;
+    font-size: medium;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+.manager{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.image{
+    margin-left: 50px;
+}
+.para{
+    justify-content: center;
+    font-size: small;
+    padding: 50px;
+}
+.text{
+    color:gray;
+}
+#b1{
+    background-color: rgb(97, 97, 212);
+    font-size: medium;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#b1:hover{
+    background-color: white;
+    transform: scale(1.2);
+    transition:all 1.8s;
+    color: black;
+    
+}
+#b2{
+    background-color: rgb(218, 209, 209);
+    font-size: medium;
+    color: black;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#b2:hover{
+    background-color: rgb(97, 97, 212);
+    transform: scale(1.2);
+    transition:all 1.8s;
+    color: white;
+}
+.border{
+    background-color: rgb(97, 97, 212);
+    height: 200px;
+    width: 55vw;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-top: -100px;
+}
+.bond{
+    background-color: rgb(97, 97, 212);
+    height: 200px;
+    width: 55vw;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-top: -100px;
+}
+.features{
+    text-align: center;
+    padding: 100px;
+    font-weight: bolder;
+    justify-content: center;
+}
+.feature{
+    background-color: rgb(245, 237, 237);
+}
+.border1{
+    background-color: rgb(97, 97, 212);
+    height: 200px;
+    width: 50vw;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    margin-top: -100px;
+}
+.but{
+    background-color: rgb(97, 97, 212);
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+.but:hover{
+    transition: all 1.2s;
+    transform: scale(1.0);
+    background-color: white;
+    color: black;
+}
+.download{
+    justify-content: center;
+    text-align:center;
+    font-size: small;
+    font-style: italic;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.manage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.add{
+    border: 3px groove rgb(47, 186, 204);
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 150px;
+    font-size: small;
+    border-radius: 20px;
+    max-height: 300px;
+}
+#clr{
+    background-color:rgb(245, 237, 237) ;
+}
+.questions{
+    width: 70vw;
+}
+.questions ul{
+    list-style: none;
+    font-size: small;
+    padding-left: 300px;
+}
+.questions li{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.btn{
+    text-align: center;
+    padding: 50px;
+}
+.sl{
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: rgb(97, 97, 212);
+    padding: 80px;
+}
+#email{
+    height: 35px;
+    width: 300px;
+    border-radius: 4px;
+    border: 0;
+}
+.bt{
+    background-color:crimson;
+    color: white;
+    border-radius: 5px;
+    font-size: bolder;
+    border: 0;
+    padding: 10px;
+    /* height: 30px;
+    width: 150px; */
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(11, 11, 58);
+    justify-content: space-between;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+    display: flex; 
+    font-size: small;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer li{
+    padding: 20px;
+}
+@media only screen and (max-width:576px){
+    header{
+        display: block;
+    }
+    .logo{
+        justify-content: center;
+    }
+    header ul{
+        justify-content: center;
+    }
+    .manager{
+        display: block;
+    }
+    #b1{
+        justify-content: center;
+    }
+    #b2{
+        justify-content: center;
+    }
+    .border{
+        width: 0vw;
+        height: 0px;
+    }
+    .bond{
+        width: 0vw;
+        height: 0px;
+    }
+    .border1{
+        width: 0vw;
+        height: 0px;
+    }
+    .para{
+        padding: 5px;
+    }
+    .image{
+        padding-bottom: 90px;
+        width: 300px;
+        height: 300px;
+        transform: translate(30%, 0%);
+    }
+    .manage{
+        display: block;
+    }
+    .add{
+        transform: translate(130%, 0%);
+    }
+    .questions ul{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width:768px){
+    header{
+        display: block;
+    }
+    .logo{
+        justify-content: center;
+    }
+    header ul{
+        justify-content: center;
+    }
+    .manager{
+        display: block;
+    }
+    .border{
+        width: 0vw;
+        height: 0px;
+    }
+    .bond{
+        width: 0vw;
+        height: 0px;
+    }
+    .border1{
+        width: 0vw;
+        height: 0px;
+    }
+    .para{
+        padding: 5px;
+    }
+    .image{
+        padding-bottom: 100px;
+        width: 300px;
+        height: 300px;
+        transform: translate(40%, 0%);
+    }
+    .manage{
+        display: block;
+    }
+    .add{
+        transform: translate(130%, 0%);
+    }
+    .questions ul{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width:992px){
+    .manager{
+        display: block;
+    }
+    .border{
+        width: 0vw;
+        height: 0px;
+    }
+    .bond{
+        width: 0vw;
+        height: 0px;
+    }
+    .border1{
+        width: 0vw;
+        height: 0px;
+    }
+    .para{
+        padding: 5px;
+    }
+    .image{
+        padding-bottom: 100px;
+        width: 300px;
+        height: 300px;
+        transform: translate(40%, 0%);
+    }
+    .manage{
+        display: block;
+    }
+    .add{
+        transform: translate(130%, 0%);
+    }
+    .questions ul{
+        padding-left: 0px;
+    }
+}
